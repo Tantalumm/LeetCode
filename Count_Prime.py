@@ -1,5 +1,3 @@
-#Given an integer n, return the number of prime numbers that are strictly less than n.
-### Hint : Use Sieve of Eratosthenes. ###
 class Solution(object):
     def countPrimes(n):
         prime = [True for _ in range(n+1)]
